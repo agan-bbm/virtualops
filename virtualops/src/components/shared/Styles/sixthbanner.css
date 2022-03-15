@@ -1,0 +1,55 @@
+.sixthBanner {
+  background-color: #297c91;
+  padding: 20rem auto;
+}
+.sixth-container {
+  padding: 7rem 0rem;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+.single-card {
+  width: 380px;
+}
+.card-comment {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+}
+.card-comment p {
+  font-size: 16px;
+}
+.card-person-profile {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-img {
+  width: 20%;
+}
+.card-person-description {
+  width: 75%;
+  text-align: left;
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+}
+.card-person-description h4,
+p {
+  margin: 0px;
+  color: white;
+}
+.card-person-description p {
+  color: white;
+}
+@media (max-width: 767px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sixth-container {
+    padding: 3rem 0;
+  }
+}

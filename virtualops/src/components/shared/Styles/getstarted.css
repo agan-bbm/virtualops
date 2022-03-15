@@ -1,0 +1,49 @@
+.getstartedbanner {
+  background-color: #f16a25;
+  padding: 100px;
+}
+.getstartedbanner-content {
+}
+.getstarted {
+  display: flex;
+  align-items: center;
+}
+.getstarted-left-content {
+  display: flex;
+  flex-direction: column;
+  padding-right: 30%;
+}
+.gtst-onestep {
+  display: flex;
+  margin: 10px 0px;
+}
+.gtst-onestep img {
+  padding-right: 20px;
+}
+.gtst-onestep p {
+  display: flex;
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  align-items: center;
+}
+.getstarted-heading {
+  text-align: left;
+  color: white;
+  font-size: 36px;
+}
+@media (max-width: 767px) {
+  .getstartedbanner {
+    padding: 50px 0px;
+  }
+  .getstarted {
+    flex-direction: column;
+  }
+  .getstarted-left-content {
+    padding: 0;
+  }
+  .getstarted-right-img img {
+    width: 100%;
+    padding-top: 50px;
+  }
+}

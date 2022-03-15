@@ -1,0 +1,92 @@
+.secondBanner {
+  background-color: #e6f4f5;
+}
+.secondbanner-content {
+  padding-top: 15rem;
+}
+.five-skills {
+  display: flex;
+  justify-content: space-between;
+}
+.secondbanner-text h2 {
+  font-size: 3rem;
+  color: #2a313d;
+  margin: 0;
+}
+.secondbanner-text p {
+  font-size: 1.4rem;
+  color: #2a313d;
+  padding: 0 10rem;
+  margin: 2rem 2rem 5rem;
+  text-align: center;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 220px;
+}
+.icon-wrapper {
+  background-color: #4dadc5;
+  height: 70%;
+  width: 220px;
+  border-radius: 5px 5px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-wrapper img {
+  width: 150px;
+  height: 150px;
+}
+.icon-text {
+  display: flex;
+  height: 30%;
+  background-color: white;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.icon-text p {
+  color: #0d4a5a;
+  font-weight: 700;
+  padding: 0px 20px;
+  font-size: 18px;
+  text-align: center;
+}
+.secondbanner-text {
+}
+.plans-button {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+.plans-button button {
+  color: white;
+  padding: 20px 30px;
+  background-color: #f16a25;
+  font-size: 14px;
+  width: 280px;
+  box-shadow: 10px 10px 20px #00000033;
+}
+@media (max-width: 767px) {
+  .secondbanner-text p {
+    padding: 0px;
+    font-size: 18px;
+    margin: 10px 0px;
+  }
+  .five-skills {
+    flex-direction: column;
+    align-items: center;
+  }
+  .skills {
+    margin: 20px;
+  }
+  .plans-button {
+    padding: 40px 0px;
+  }
+  .secondbanner-text h2 {
+    font-size: 26px;
+  }
+}

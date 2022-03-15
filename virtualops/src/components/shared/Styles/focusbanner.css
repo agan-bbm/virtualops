@@ -1,0 +1,60 @@
+.focusBanner {
+  background-color: #0d4a5a;
+  padding: 100px;
+}
+.focusBanner-container h2 {
+  color: white;
+  font-size: 36px;
+  text-align: center;
+}
+.focusBanner-container p {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+.focusButtons {
+  display: flex;
+  padding: 50px 0px;
+  justify-content: space-evenly;
+  margin: 20px;
+  width: 800px;
+  margin: 0 auto;
+}
+.consultationBtn button {
+  background-color: #f16a25;
+  color: white;
+  border-radius: 8px;
+  padding: 25px 35px;
+  width: 350px;
+  font-size: 18px;
+}
+
+.plansBtn button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 8px;
+  padding: 25px 35px;
+  width: 350px;
+  font-size: 18px;
+}
+@media (max-width: 767px) {
+  .focusBanner {
+    padding: 50px 0px;
+  }
+  .focusButtons {
+    display: flex;
+    padding: 50px 0px;
+    justify-content: space-evenly;
+    margin: 20px;
+    width: auto;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .plansBtn button {
+    width: auto;
+  }
+  .consultationBtn button {
+    width: auto;
+  }
+}

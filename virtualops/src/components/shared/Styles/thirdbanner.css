@@ -1,0 +1,38 @@
+.third-container {
+  display: flex;
+
+  justify-content: space-between;
+  padding: 3rem 0px;
+
+  align-items: center;
+}
+.third-left h2,
+p {
+  color: #2a313d;
+  text-align: left;
+}
+.third-left h2 {
+  font-size: 30px;
+}
+.third-left {
+  width: 40%;
+}
+@media (max-width: 767px) {
+  .third-container {
+    flex-direction: column;
+  }
+  .third-left {
+    width: 100%;
+  }
+  .third-img-banner img {
+    width: 100%;
+  }
+  .third-left h2 {
+    font-size: 30px;
+    margin: 10px 0px;
+  }
+  .third-left p {
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+}

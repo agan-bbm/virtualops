@@ -1,0 +1,39 @@
+.fifth-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0px;
+
+  align-items: center;
+}
+.fifth-left h2,
+p {
+  color: #2a313d;
+  text-align: left;
+}
+.fifth-left h2 {
+  font-size: 30px;
+}
+.fifth-left {
+  width: 40%;
+}
+@media (max-width: 767px) {
+  .fifth-container {
+    flex-direction: column;
+  }
+  .fifth-left {
+    width: 100%;
+  }
+  .fifth-left h2 {
+    text-align: left;
+    margin: 10px 0px;
+  }
+  .fifth-left p {
+    text-align: left;
+    margin: 10px 0px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .fifth-img-banner img {
+    width: 100%;
+  }
+}

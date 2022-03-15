@@ -1,0 +1,151 @@
+.firstBanner {
+  background-image: url("../images/mainbanner.png");
+  width: 100%;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.firstbanner-content {
+  display: flex;
+  height: 70vh;
+}
+.text-content {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+  text-align: left;
+}
+.text-content h2,
+p {
+  color: #fff;
+}
+.text-content h2 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+.text-content p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.main-buttons {
+  display: flex;
+  padding-top: 4.5rem;
+  margin: 0;
+}
+.email {
+  background-color: #4dadc5;
+  color: #fff;
+}
+.asistant {
+  margin-left: 15px;
+  background-color: #fff;
+  color: #298a91;
+}
+.banner-image {
+  height: 100%;
+}
+.feature-p p {
+  color: #fff;
+}
+
+button {
+  border-radius: 5px;
+  padding: 15px 25px;
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+}
+.three-features {
+  display: flex;
+  justify-content: space-between;
+}
+.feature-container {
+  width: 30%;
+  border-radius: 5px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -50px;
+}
+#time-feature {
+  background-color: #0d4a5a;
+}
+#user-feature {
+  background-color: #4dadc5;
+}
+#cup-feature {
+  background-color: #f16a25;
+}
+@media (max-width: 767px) {
+  .text-content {
+    width: 100%;
+  }
+  .firstbanner-content {
+    height: 55vh;
+    padding-top: 100px;
+  }
+  .main-heading {
+    text-align: center;
+  }
+  .main-paragraph {
+    text-align: center;
+  }
+  .three-features {
+    flex-direction: column;
+    margin-bottom: -180px;
+    height: 360px;
+  }
+  .feature-container {
+    margin: 10px auto;
+    width: 300px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 0px 10px;
+  }
+  .text-content h2 {
+    font-size: 27px;
+    padding: 20px 0px;
+    margin: 0;
+  }
+  .featue-icons {
+    display: flex;
+    padding: 20px;
+  }
+  .text-content p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    /* padding: 0px 40px; */
+  }
+
+  button {
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 5px;
+  }
+  .email {
+    width: 220px;
+    padding: 15px;
+  }
+  .asistant {
+    width: 220px;
+    padding: 15px;
+    margin-left: 5px;
+  }
+  .main-buttons {
+    padding-top: 30px;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

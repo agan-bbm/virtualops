@@ -1,0 +1,41 @@
+.fourthBanner {
+  background-color: #e6f4f5;
+}
+.fourth-container {
+  display: flex;
+
+  justify-content: space-between;
+  padding: 3rem 0px;
+
+  align-items: center;
+}
+.fourth-right h2,
+p {
+  color: #2a313d;
+  text-align: left;
+}
+.fourth-right h2 {
+  font-size: 30px;
+}
+.fourth-right {
+  width: 40%;
+}
+@media (max-width: 767px) {
+  .fourth-container {
+    flex-direction: column;
+  }
+  .fourth-img-banner img {
+    width: 100%;
+  }
+  .fourth-right {
+    width: 100%;
+  }
+  .fourth-right h2 {
+    text-align: center;
+    margin: 10px 0px;
+  }
+  .fourth-right p {
+    text-align: left;
+    font-weight: 500;
+  }
+}
